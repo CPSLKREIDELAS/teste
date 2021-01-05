@@ -22,10 +22,10 @@ sudo adduser ALOK chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Instalado Com Sucesso " >&2 ||
 printf "\nError" >&2
-printf '\nCaso Queira Usar Esse RDP Link:https://remotedesktop.google.com/headless\n'
-read -p "Paste Here: " CRP
+printf '\nEscolha Algum Terminal E Copie (RECOMENDO O Debian) https://remotedesktop.google.com/headless\n'
+read -p "Cole Aqui O Escolhido: " CRP
 su - CPSLK -c """$CRP"""
-printf 'Link Para Logar: https://remotedesktop.google.com/access/ \n\n'
+printf 'Link Para Logar Em Seu Terminal: https://remotedesktop.google.com/access/ \n\n'
 if sudo apt-get upgrade &> /dev/null
 then
     printf "\n\nUpgrade Completado " >&2
