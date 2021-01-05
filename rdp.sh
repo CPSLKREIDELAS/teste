@@ -1,5 +1,4 @@
-printf "CODED BY CPSLK O BRABO ;=;"
-printf "INSTALANDO RDP :) " >&2
+printf "CODED BY CPSLK O BRABO ;=;\n\nINSTALANDO RDP :), ISSO PODE DEMORAR ENTRE 3 E 5 MINUTOS" >&2
 {
 sudo useradd -m CPSLK
 sudo adduser CPSLK sudo
