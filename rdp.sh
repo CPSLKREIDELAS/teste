@@ -1,3 +1,4 @@
+printf "CODED BY CPSLK O BRABO ;=;"
 printf "INSTALANDO RDP :) " >&2
 {
 sudo useradd -m CPSLK
