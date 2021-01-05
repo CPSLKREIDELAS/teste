@@ -1,5 +1,4 @@
 printf "INSTALANDO RDP :) " >&2
-printf "CPSLK O MARBRABO" >$2
 {
 sudo useradd -m CPSLK
 sudo adduser CPSLK sudo
