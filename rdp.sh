@@ -24,7 +24,7 @@ printf "\nError" >&2
 printf '\nEscolha Algum Terminal E Copie (RECOMENDO O Debian) https://remotedesktop.google.com/headless\n'
 read -p "Cole Aqui O Escolhido: " CRP
 su - CPSLK -c """$CRP"""
-printf 'Link Para Logar Em Seu Terminal: https://remotedesktop.google.com/access/ \n\n'
+printf 'Criado Com Sucesso, Link Para Login: https://remotedesktop.google.com/access/ \n\n'
 if sudo apt-get upgrade &> /dev/null
 then
     printf "\n\nUpgrade Completado " >&2
